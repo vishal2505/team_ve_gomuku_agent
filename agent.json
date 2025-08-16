@@ -1,0 +1,6 @@
+{
+    "name": "VEGomukuAgent",
+    "agent_class": "ve_gomoku_agent.VEGomukuAgent",
+    "author": "Vishal & Ekjot",
+    "description": "LLM-powered Gomoku agent for 8x8 five-in-a-row tournament developed by Vishal and Ekjot."
+}
