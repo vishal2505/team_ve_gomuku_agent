@@ -1,17 +1,14 @@
 import json
-import re
-import random
-import os
 from typing import Tuple, List
 from gomoku import Agent, GameState
 from gomoku.llm import OpenAIGomokuClient
 
-class VEGomukuAgent(Agent):
+class VEGomokuAgent(Agent):
     """LLM-powered Gomoku agent with stronger diagonal threat capture and blunder-avoidance."""
 
     def __init__(self, agent_id: str):
         super().__init__(agent_id)
-        print(f"Created VEGomukuAgent: {agent_id}")
+        print(f"Created VEGomokuAgent: {agent_id}")
 
     def _setup(self):
         # Configure OpenAI API settings
